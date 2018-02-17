@@ -1,0 +1,11 @@
+commit 2bd55368cc70f68b8362022f690bafcd144c6eaf
+Author: Sergey <elsumo@mail.ru>
+Date:   Sat Feb 17 18:48:07 2018 +0300
+
+    add status.txt
+
+commit 85f15b3aed71534e314d36e43fdd8403385e714c
+Author: Sergey <elsumo@mail.ru>
+Date:   Sat Feb 17 18:37:12 2018 +0300
+
+    add .gitignore
