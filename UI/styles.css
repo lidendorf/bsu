@@ -85,15 +85,16 @@ body {
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 3%;
 }
 
-.container__photo {
+.container-photo {
   width: 20%;
   padding-right: 6.66%;
   padding-bottom: 15px;
 }
 
-.container__photo:nth-child(4n) {
+.container-photo:nth-child(4n) {
   padding-right: 0;
 }
 
@@ -118,8 +119,12 @@ body {
 
 .photo-like {
   margin: 0 auto 0 10px;
-  max-width: 9%;
-  min-height: 10px;
+  background: url(img/heart-black.png) no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+  border: none;
+  background-color: #fff;
+  width: 10%;
 }
 
 .date-time {
@@ -169,6 +174,7 @@ body {
   margin: 0 auto;
   padding: 2% 3%;
   background-color: #eee9e6;
+  margin-top: 4%;
 }
 
 .footer__logo {
@@ -180,11 +186,11 @@ body {
 }
 
 .footer__group {
-  flex-basis: 15%;
+  flex-basis: 20%;
 }
 
 .footer__mail {
-  flex-basis: 25%;
+  flex-basis: 20%;
   text-decoration: none;
   color: blue;
 }
@@ -207,5 +213,9 @@ body {
 
   .footer_text {
     font-size: 12px;
+  }
+
+  .date-time {
+    line-height: .7;
   }
 }
